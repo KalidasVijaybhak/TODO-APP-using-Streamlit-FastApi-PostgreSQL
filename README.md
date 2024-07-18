@@ -6,17 +6,9 @@ This repository contains a simple TODO application built with FastAPI and Postgr
 
 - Add new tasks
 - Mark tasks as completed
-- Retrieve all tasks
-- Retrieve completed tasks
-- Delete specific tasks
+- Delete  tasks
 - Delete completed tasks
-- Clear all tasks
-- Clear all completed tasks
 
-## Prerequisites
-
-- Python 3.8+
-- PostgreSQL
 
 ## Installation
 
@@ -45,9 +37,22 @@ This repository contains a simple TODO application built with FastAPI and Postgr
 
 4. Configure the database connection:
 
-Open database.py
-Update the DATABASE_URL with your PostgreSQL credentials:
+   Open database.py
+   Update the DATABASE_URL with your PostgreSQL credentials:
+   
+   ```python
+   DATABASE_URL = "postgresql://fastapi_user:password@localhost/todo_db"
 
-```python
-DATABASE_URL = "postgresql://fastapi_user:password@localhost/todo_db"
+5. Running the Application
 
+   Start the FastAPI server:
+   ```python
+   uvicorn backend:app --reload
+   
+6. Running the FrontEnd
+
+    ```python
+   streamlit run main.py
+   
+   
+   

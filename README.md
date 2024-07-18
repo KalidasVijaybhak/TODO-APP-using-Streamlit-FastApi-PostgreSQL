@@ -2,6 +2,10 @@
 
 This repository contains a simple TODO application built with FastAPI and PostgreSQL. It allows you to manage tasks with basic CRUD operations (Create, Read, Update, Delete).
 
+
+https://github.com/user-attachments/assets/8bbc5bfc-dd5a-4d1a-9daa-cae39f7ff3a2
+
+
 ## Features
 
 - Add new tasks
